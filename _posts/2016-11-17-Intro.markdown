@@ -1,0 +1,37 @@
+---
+layout: single
+title:  "Intro"
+date:   2016-10-17 10:34:01
+categories: Outreachy
+summary: Intro
+image: /assets/article_images/2016-10-17-Intro/nodejs_white.png
+tags:
+- Node.js
+- V8
+---
+
+# Outreachy & Node.js
+
+The blog was set up to document my process of open source contributions to Node.js.
+I'm thrilled to have become the Outreachy grantee and the opportunity of diving head
+first into contributing to such a complex codebase as Node.js. It is widely used,
+with amazingly skilled and experienced maintainers and developers.
+I can't think of a greater learning experience.
+
+The project I'll be working on is entitled "Improve the vm module in Node.js core",
+menored by Franziska Hinkelmann (Google, Node.js). During the application process
+we managed to introduce a couple off improvements which landed in the core (yay!).
+What's the goal of the project, really?
+In brief, V8 (Node's JS engine) has been updated with a new API, which will
+replace the current V8 version of Node.js in the near future.
+The overarching theme of this project is to use the new V8 API to replace
+current deprecated functions and workaround solutions in Node.js.
+Vm is a sandboxed V8 instance, which allows to contextify processes run in Node.
+There are a number of issues in Contextify, which can be solved by adopting
+the changes in the new V8 API. That's the outline- looking forward to seeing
+it evolve and getting implemented.
+
+Writing posts about the progress and learnings is a few notches away from my comfort
+zone- again, no better reason to do it. The official start date is the 6th of December,
+I'm already playing with the V8 API and reading/watching all I can find on Node.js.
+Off we go.

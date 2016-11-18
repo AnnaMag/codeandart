@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Maths and code"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Anna"
+description              : "contributing to open source"
+url                      : # the base hostname & protocol for your site e.g. "https://annamag.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : # GitHub username/repo-name e.g. "AnnaMag/codeandart"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -77,10 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Anna M. Kedzierska"
+  avatar           : "/assets/images/avatar.png"
+  bio              : "I work as a data scientist and write code.
+  I'm currently an Outreachy intern contributing to Node.js."
+  location         : "Global"
   email            :
   uri              :
   bitbucket        :
@@ -135,8 +136,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+#  - /docs # ignore Minimal Mistakes /docs
+#  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn

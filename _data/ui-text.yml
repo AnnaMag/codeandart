@@ -24,7 +24,7 @@ en: &DEFAULT_EN
   related_label              : "You May Also Enjoy"
   follow_label               : "Follow:"
   feed_label                 : "Feed"
-  powered_by                 : "Powered by"
+  powered_by                 : "Made with Love."
   website_label              : "Website"
   email_label                : "Email"
   recent_posts               : "Recent Posts"
