@@ -14,8 +14,8 @@ tags:
 
 The blog was set up to document my process of open source contributions to Node.js.
 I'm thrilled to have become the Outreachy grantee and the opportunity of diving head
-first into contributing to such a complex codebase as Node.js. It is widely used,
-with amazingly skilled and experienced maintainers and developers.
+first into contributing to such a complex codebase as Node.js. It is widely used
+and run by very experienced and dedicated maintainers and contributors.
 I can't think of a greater learning experience.
 
 The project I'll be working on is entitled "Improve the vm module in Node.js core",
