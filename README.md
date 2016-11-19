@@ -1,1 +1,1 @@
-Personal blog pages. Code lives in gh-pages
+Personal blog pages. 
