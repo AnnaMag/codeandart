@@ -21,8 +21,8 @@ I can't think of a greater learning experience.
 The project I'll be working on is entitled "Improve the vm module in Node.js core",
 menored by Franziska Hinkelmann (Google, Node.js). During the application process
 we managed to introduce a couple off improvements which landed in the core (yay!).
-What's the goal of the project, really?
-In brief, V8 (Node's JS engine) has been updated with a new API, which will
+What's the goal of the project?
+In essence, V8 (Node's JS engine) has been updated with a new API, which will
 replace the current V8 version of Node.js in the near future.
 The overarching theme of this project is to use the new V8 API to replace
 current deprecated functions and workaround solutions in Node.js.
