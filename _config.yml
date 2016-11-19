@@ -7,8 +7,8 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Maths and code"
-title_separator          : "-"
+title                    : "Mathematics Code Open Source"
+title_separator          : "--"
 name                     : "Anna"
 description              : "contributing to open source"
 url                      : # the base hostname & protocol for your site e.g. "https://annamag.github.io/codeandart"
@@ -80,9 +80,9 @@ author:
   name             : "Anna M. Kedzierska"
   avatar           : "/assets/images/avatar.png"
   bio              : "I work as a data scientist and write code.
-  I'm currently an Outreachy intern at Node.js."
+                      Outreachy intern @Node.js."
   location         : "Global"
-  email            :
+  email            : "anna.mag.kedzierska@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -90,12 +90,12 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "AnnaMag"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "anmake"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -109,6 +109,7 @@ author:
 
 
 # Reading Files
+include: ["_pages"]
 include:
   - .htaccess
   - _pages
