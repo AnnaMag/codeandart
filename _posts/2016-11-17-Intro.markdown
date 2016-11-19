@@ -32,6 +32,6 @@ the changes in the new V8 API. That's the outline- looking forward to seeing
 it evolve and getting implemented.
 
 Writing posts about the progress and learnings is a few notches away from my comfort
-zone- again, no better reason to do it. The official start date is the 6th of December,
-I'm already playing with the V8 API and reading/watching all I can find on Node.js.
-Off we go.
+zone- again, no better reason to do it. The official start date is the 6th of December.
+I'm busy tinkering with the V8 API and reading/watching all I can find on Node.js.
+Off for a great start.
