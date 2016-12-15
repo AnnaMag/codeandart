@@ -29,7 +29,7 @@ highly enough' choice). I'm beyond thrilled to have become the Outreachy grantee
 with deep interest in complex systems, Node.js was a natural choice for me.
 These pages were set up to document the learnings and the contribution process.
 
-"Improve the vm module in Node.js core" is the project I am working on.
+"Improve the vm module in Node.js core" is the project I'm working on.
 Node.js uses the V8 (Node's JS engine), which has been updated with a new API,
 scheduled to land in the Node.js core in the very near future. It will allow for replacing
 current deprecated functions and workaround solutions in Node.js core.
