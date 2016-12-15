@@ -11,18 +11,30 @@ tags:
 ---
 
 # Outreachy & Node.js
+[Outreachy](https://wiki.gnome.org/Outreachy) is an amazing initiative
+providing underrepresented communities in tech an opportunity
+to get involved in contributing to FOSS projects. Participating organizations
+vary with each call. It is a unique opportunity to contribute to organizations like Mozilla,
+Wikimedia, Fedora, Linux kernel, GNOME, amongst many others.
 
-I'm thrilled to have become the Outreachy grantee in the Decemeber 2016- March 2017
-round.  These pages were set up to document the learnings and the process
-of contributing to the Node.js core.
+The application process is highly collaborative and its main component are
+the initial contributions to the project of choice, with the help of the mentor
+and the community. I had a blast during the application process and
+highly recommend it to those who are curious to understand how important projects
+and software are designed, created and maintained; and who want to seriously up
+the ante when it comes to their programming skills.
 
-V8 (Node's JS engine) has been updated with a new API, which will
-land in the Node.js core in the very near future. It will allow for replacing
-current deprecated functions and workaround solutions in Node.js.
+I learned about the Outreachy while attending the awesome NYC-based [Recurse Center](https://www.recurse.com/) this spring (another 'I cannot recommend it
+highly enough' choice). I'm beyond thrilled to have become the Outreachy grantee in the December 2016 - March 2017 round working on Node.js. Being both Javascript and C++ fan
+with deep interest in complex systems, Node.js was a natural choice for me.
+These pages were set up to document the learnings and the contribution process.
 
+"Improve the vm module in Node.js core" is the project I am working on.
+Node.js uses the V8 (Node's JS engine), which has been updated with a new API,
+scheduled to land in the Node.js core in the very near future. It will allow for replacing
+current deprecated functions and workaround solutions in Node.js core.
+Vm is a sandboxed V8 instance, which allows to contextify processes run in Node.js.
+There are a number of opened issues (and probably some more hidden ones),
+which can be solved by adopting the changes in the new V8 API.
 
-The project I am working on is "Improve the vm module in Node.js core".
-Vm is a sandboxed V8 instance, which allows to contextify processes run in Node.
-There are a number of issues in Contextify, which can be solved by adopting
-the changes in the new V8 API. That's the outline- looking forward to seeing
-it evolve and getting implemented.
+That's the outline- looking forward to seeing it evolve and getting implemented.
