@@ -13,7 +13,7 @@ tags:
 # Outreachy & Node.js
 [Outreachy](https://wiki.gnome.org/Outreachy) is an amazing initiative
 providing underrepresented communities in tech an opportunity
-to get involved in contributing to FOSS projects. Participating organizations
+to get involved in FOSS. Participating organizations
 vary with each call. It is a unique opportunity to contribute to organizations like Mozilla,
 Wikimedia, Fedora, Linux kernel, GNOME, amongst many others.
 
