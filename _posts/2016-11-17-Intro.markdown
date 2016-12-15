@@ -24,7 +24,7 @@ highly recommend it to those who are curious to understand how important project
 and software are designed, created and maintained; and who want to seriously up
 the ante when it comes to their programming skills.
 
-I learned about the Outreachy while attending the awesome NYC-based [Recurse Center](https://www.recurse.com/) this spring (another 'I cannot recommend it
+I learned about the Outreachy at the awesome NYC-based [Recurse Center](https://www.recurse.com/) this spring (another 'I cannot recommend it
 highly enough' choice). I'm beyond thrilled to have become the Outreachy grantee in the December 2016 - March 2017 round working on Node.js. Being both Javascript and C++ fan
 with deep interest in complex systems, Node.js was a natural choice for me.
 These pages were set up to document the learnings and the contribution process.
