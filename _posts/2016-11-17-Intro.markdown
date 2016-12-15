@@ -16,14 +16,12 @@ I'm thrilled to have become the Outreachy grantee in the Decemeber 2016- March 2
 round.  These pages were set up to document the learnings and the process
 of contributing to the Node.js core.
 
-focuses on fixing current issues in the Vm context of Node.js.
 V8 (Node's JS engine) has been updated with a new API, which will
 land in the Node.js core in the very near future. It will allow for replacing
 current deprecated functions and workaround solutions in Node.js.
 
 
-The project I am working on, "Improve the vm module in Node.js core",
-focuses on fixing current issues with the Vm context of Node.js.
+The project I am working on is "Improve the vm module in Node.js core".
 Vm is a sandboxed V8 instance, which allows to contextify processes run in Node.
 There are a number of issues in Contextify, which can be solved by adopting
 the changes in the new V8 API. That's the outline- looking forward to seeing

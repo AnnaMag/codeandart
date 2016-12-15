@@ -1,19 +1,19 @@
 var particles = [];
 var immortalParticles;
 var connectRadius;
-var particleSize = 3;
-var maxParticleSpeed = 0.045;
+var particleSize = 2;
+var maxParticleSpeed = 0.035;
 var mouseVelocity = 1.3;
-var glowFactor = 5;
+var glowFactor = 3;
 
 var pMouseX;
 var pMouseY;
 
 var pulseSize = 12;
 
-var r = 237;
-var g = 34;
-var b = 93;
+var r = 125;
+var g = 147;
+var b = 235;
 
 function setup() {
   createCanvas(
