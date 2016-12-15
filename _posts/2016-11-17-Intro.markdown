@@ -12,26 +12,19 @@ tags:
 
 # Outreachy & Node.js
 
-The blog was set up to document my process of open source contributions to Node.js.
-I'm thrilled to have become the Outreachy grantee and the opportunity of diving head
-first into contributing to such a complex codebase as Node.js. It is widely used
-and run by very experienced and dedicated maintainers and contributors.
-I can't think of a greater learning experience.
+I'm thrilled to have become the Outreachy grantee in the Decemeber 2016- March 2017
+round.  These pages were set up to document the learnings and the process
+of contributing to the Node.js core.
 
-The project I'll be working on is entitled "Improve the vm module in Node.js core",
-menored by Franziska Hinkelmann (Google, Node.js). During the application process
-we managed to introduce a couple off improvements which landed in the core (yay!).
-What's the goal of the project?
-In essence, V8 (Node's JS engine) has been updated with a new API, which will
-replace the current V8 version of Node.js in the near future.
-The overarching theme of this project is to use the new V8 API to replace
+focuses on fixing current issues in the Vm context of Node.js.
+V8 (Node's JS engine) has been updated with a new API, which will
+land in the Node.js core in the very near future. It will allow for replacing
 current deprecated functions and workaround solutions in Node.js.
+
+
+The project I am working on, "Improve the vm module in Node.js core",
+focuses on fixing current issues with the Vm context of Node.js.
 Vm is a sandboxed V8 instance, which allows to contextify processes run in Node.
 There are a number of issues in Contextify, which can be solved by adopting
 the changes in the new V8 API. That's the outline- looking forward to seeing
 it evolve and getting implemented.
-
-Writing posts about the progress and learnings is a few notches away from my comfort
-zone- again, no better reason to do it. The official start date is the 6th of December.
-I'm busy tinkering with the V8 API and reading/watching all I can find on Node.js.
-Off for a great start.
