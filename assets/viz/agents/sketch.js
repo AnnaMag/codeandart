@@ -1,19 +1,19 @@
 var particles = [];
 var immortalParticles;
 var connectRadius;
-var particleSize = 2;
-var maxParticleSpeed = 0.035;
+var particleSize = 1;
+var maxParticleSpeed = 0.025;
 var mouseVelocity = 1.3;
 var glowFactor = 3;
 
 var pMouseX;
 var pMouseY;
 
-var pulseSize = 12;
+var pulseSize = 32;
 
-var r = 125;
-var g = 147;
-var b = 235;
+var r = 0;
+var g = 102;
+var b = 204;
 
 function setup() {
   createCanvas(
@@ -94,7 +94,7 @@ function draw() {
         particle3.connections++;
 
         noStroke();
-        strokeWeight(1.5);
+        strokeWeight(1.2);
         stroke(r, g, b, 5);
         noFill();
 
@@ -169,7 +169,7 @@ function Particle(x, y, velocity, immortality) {
   this.pulse = function() {
     if (!this.immortality && this.pulsed <= pulseSize) {
       strokeWeight(particleSize + this.pulsed);
-      stroke(r, g, b, 255 - this.pulsed);
+      stroke(255, 128, 0, 255 - this.pulsed);
       point(
         this.coordinates.x,
         this.coordinates.y
