@@ -31,10 +31,11 @@ These pages were set up to document the learnings and the contribution process.
 
 # "Improving the vm module in Node.js core".
 Node.js uses V8 as its JavaScript runtime-- every Node.js release ships
-with its a specific V8 version. The new V8 API provides support for the ES6 syntax,
-which allows for removing the deprecated functions and workaround solutions in
+with a specific V8 version. The new 5.5 V8 API supports more of the ES6 syntax
+in comparison with its predecessors (think e.g. Object.defineProperty),
+which allows for removing some of the deprecated functions and workaround solutions in
 the current version of Node.js core. In particular,
 [vm](https://nodejs.org/api/vm.html), a sandboxed V8 instance,
 will benefit a great deal from the upgrade, which is my focus in the coming weeks.
 
-Looking forward to seeing the project evolve and get implemented.
+Looking forward to seeing the project evolve and get implemented. Exciting! 
