@@ -112,13 +112,10 @@ The script stops when hitting the breakpoint in the
 ```GlobalPropertySetterCallback```.
 
 `bt` command shows a number of frames with empty stack trace.
-
-<!-- <figure>
-  <img src="https://github.com/AnnaMag/codeandart/blob/gh-pages/assets/images/bt1.png" alt="this is a placeholder image">
+<figure>
+  <img src="codeandart/assets/images/bt1.png" alt="this is a placeholder image">
   <figcaption>Empty JS stack trace.</figcaption>
-</figure> -->
-
-{% include figure image_path="https://github.com/AnnaMag/codeandart/blob/gh-pages/assets/images/bt1.png" alt="Empty JS stack trace." caption="Empty JS stack trace." %}
+</figure>
 
 This is the executed JavaScript code and the point where **jbt** plug-in comes
 to rescue.
@@ -129,7 +126,7 @@ to rescue.
 Re-runs the command using **jbt** that lists the first 40 frames,
 and results in:
 <figure>
-  <img src="/assets/images/btjs.png" alt="this is a placeholder image">
+  <img src="codeandart/assets/images/btjs.png" alt="this is a placeholder image">
   <figcaption>Filled in stack trace.</figcaption>
 </figure>
 
