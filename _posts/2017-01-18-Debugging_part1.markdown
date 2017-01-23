@@ -116,7 +116,7 @@ The script stops when hitting the breakpoint in the
 ![Empty JS stack trace.](https://github.com/AnnaMag/codeandart/blob/gh-pages/assets/images/bt1.png)
 
 <figure>
-  <img src="./assets/images/bt1.png" alt="this is a placeholder image">
+  <img src="https://github.com/AnnaMag/codeandart/blob/gh-pages/assets/images/bt1.png" alt="this is a placeholder image">
   <figcaption>Empty JS stack trace.</figcaption>
 </figure>
 
