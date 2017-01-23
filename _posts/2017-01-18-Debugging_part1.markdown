@@ -155,7 +155,7 @@ sandbox
     .globalVar=0x000016ff3ca036b1:<String: "set">}>
 ```
 
-and again:
+and after the second pass of the setter:
 
 ```js
 (lldb)  v8 i 0x000019f7d4ed1e99
