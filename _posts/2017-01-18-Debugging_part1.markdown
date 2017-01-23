@@ -118,13 +118,13 @@ The script stops when hitting the breakpoint in the
 </figure>
 
 This is the executed JavaScript code and the point where llnode plug-in comes
-to rescue.
+to rescue. Re-run of the command using llnode that lists the first 40 frames:
 
 ```
 (lldb) v8 i 40
 ```
-Re-runs the command using llnode that lists the first 40 frames,
-and results in:
+
+results in:
 <figure>
   <img src="/codeandart/assets/images/btjs.png" alt="this is a placeholder image">
   <figcaption>Filled in stack trace.</figcaption>
