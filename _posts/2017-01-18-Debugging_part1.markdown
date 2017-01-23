@@ -113,7 +113,7 @@ The script stops when hitting the breakpoint in the
 
 `bt` command shows a number of frames with empty stack trace.
 <figure>
-  <img src="codeandart/assets/images/bt1.png" alt="this is a placeholder image">
+  <img src="/codeandart/assets/images/bt1.png" alt="this is a placeholder image">
   <figcaption>Empty JS stack trace.</figcaption>
 </figure>
 
@@ -126,7 +126,7 @@ to rescue.
 Re-runs the command using **jbt** that lists the first 40 frames,
 and results in:
 <figure>
-  <img src="codeandart/assets/images/btjs.png" alt="this is a placeholder image">
+  <img src="/codeandart/assets/images/btjs.png" alt="this is a placeholder image">
   <figcaption>Filled in stack trace.</figcaption>
 </figure>
 
