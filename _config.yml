@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Anna M. Kedzierska"
   avatar           : "/assets/images/avatar.png"
-  bio              : "Math PhD. I work with data and write code.
+  bio              : "Maths PhD. I work with data and write code.
                       Outreachy intern @Node.js."
   location         : "Global"
   email            : "anna.mag.kedzierska@gmail.com"

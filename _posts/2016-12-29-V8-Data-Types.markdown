@@ -11,7 +11,8 @@ tags:
 ---
 
 This is a short post about a few key internals of V8 and the way that the
-JavaScript variables are handled in the C++ code.
+JavaScript variables are handled in the C++ code. 
+
 
 *Isolate* and *Context* are important key concepts in V8.
 V8 has its own memory management and data type facilities. When JavaScript creates
