@@ -7,7 +7,6 @@ summary: Debugging Node.js
 tags:
 - JavaScript
 - V8
-- llnode
 - debugging
 ---
 
@@ -190,6 +189,6 @@ reveals the modifications of the sanbox:
 
 This obviously just scratches the surface of possible uses of **jbt**.
 Also, when working on Node.js core we want to use the full capabilities of
-a debugger, move through the code and access V8 specific objects. 
+a debugger, move through the code and access V8 specific objects.
 
 Happy inspecting :ok_hand:
