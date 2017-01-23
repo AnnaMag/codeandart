@@ -94,7 +94,7 @@ lldb specific ones:
 
 We will set a breakpoint at one of the callbacks called when modifying
 (in any way) properties on global objects inside the *vm*,
-*GlobalPropertySetterCallback*. What we expect to see
+```GlobalPropertySetterCallback```. What we expect to see
 is that the *globalVar*, *object* and *foo1* will be copied onto an object
 associated internally with new instance of a V8 Context,
 so-called sandbox (process referred to as *"contextifying" the sandbox*).
@@ -108,7 +108,8 @@ b node::ContextifyContext::GlobalPropertySetterCallback
 r
 ```
 
-The script stops when hitting the breakpoint in GlobalPropertySetterCallback.
+The script stops when hitting the breakpoint in the
+```GlobalPropertySetterCallback```.
 
 `bt` command shows a number of frames with empty stack trace.
 <figure>
