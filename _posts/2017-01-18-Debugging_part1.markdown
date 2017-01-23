@@ -117,13 +117,13 @@ The script stops when hitting the breakpoint in the
   <figcaption>Empty JS stack trace.</figcaption>
 </figure>
 
-This is the executed JavaScript code and the point where **jbt** plug-in comes
+This is the executed JavaScript code and the point where llnode plug-in comes
 to rescue.
 
 ```
 (lldb) v8 i 40
 ```
-Re-runs the command using **jbt** that lists the first 40 frames,
+Re-runs the command using llnode that lists the first 40 frames,
 and results in:
 <figure>
   <img src="/codeandart/assets/images/btjs.png" alt="this is a placeholder image">
@@ -188,7 +188,7 @@ reveals the modifications of the sanbox:
  }
 ```
 
-This obviously just scratches the surface of possible uses of **jbt**.
+This obviously just scratches the surface of possible uses of llnode.
 Also, when working on Node.js core we want to use the full capabilities of
 a debugger, move through the code and access V8 specific objects.
 
