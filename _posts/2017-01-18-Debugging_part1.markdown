@@ -113,12 +113,12 @@ The script stops when hitting the breakpoint in the
 
 `bt` command shows a number of frames with empty stack trace.
 
-![Empty JS stack trace.](https://github.com/AnnaMag/codeandart/blob/gh-pages/assets/images/bt1.png)
-
-<figure>
+<!-- <figure>
   <img src="https://github.com/AnnaMag/codeandart/blob/gh-pages/assets/images/bt1.png" alt="this is a placeholder image">
   <figcaption>Empty JS stack trace.</figcaption>
-</figure>
+</figure> -->
+
+{% include figure image_path="https://github.com/AnnaMag/codeandart/blob/gh-pages/assets/images/bt1.png" alt="Empty JS stack trace." caption="Empty JS stack trace." %}
 
 This is the executed JavaScript code and the point where **jbt** plug-in comes
 to rescue.
