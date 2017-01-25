@@ -42,6 +42,9 @@ For the sake of convenience, I copied the ```nvm.sh``` and ```bash_completion```
 ```nvm``` [github repo](https://github.com/creationix/nvm) and placed them
 in *.nvm/*. It allows to load commands without a need for sourcing
 and adds tab completion.
+The benefit of using ```nvm``` is to be able to install and easily switch
+between different Node.js versions. In addition, one can run distinct
+releases in different tabs, which is great for tests.
 
 I cleaned my desk to have only my laptop and a notebook on it :smile:.
 Clear space = clear mind, as the zen masters have been saying all along.
