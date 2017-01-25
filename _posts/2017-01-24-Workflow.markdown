@@ -17,35 +17,38 @@ as far with half-baked workflow.
 I slowly learn more keyboard shortcuts (```ctrl+R``` is ma fav).
 I added git aliases to the .zshrc file and cleaned up branches
 from previous PRs. Coincidental github push of my messy local node fork
-:cold_sweat: directory made me clean up the directory of some half written notes, posts and
+:cold_sweat: directory was a strong incentive to clean it up
+and reorganize some of the half written notes and
 scrapbooking files.
-I added a bash script to copy builds into a special directory that is not under version
-control and rename them accordingly to avoid overwriting. Node build softlinks
-executables from /out/Release and /out/Debug, so that they get overwritten
-with every build made off any branch. Obvious thing, but it takes a few
-"oh geee's" to realize what is happening and that another re-build is needed
+I added a bash script to copy builds into a special directory that is
+not under version
+control and rename them accordingly to avoid overwriting. Node.js build
+softlinks executables from */out/Release* and */out/Debug*, so that
+they get overwritten with every build made off any branch.
+Obvious thing, it seems, yet it takes a few re-builds and
+"oh geee's" to realize what is happening
 :disappointed:.
 
 
 I was using a homebrew installation of Node.js (aside from my local builds).
 Following my mentor's advice I switched to ```nvm```. I installed ```nvm```
 from homebrew, removed the few npm-globally-installed packages (not the best
-   practice to go ```npm -g``` with node packages) and used it to re-installed ```npm```
+   practice to go ```npm -g``` with node packages) and used it
+   to re-installed ```npm```
 and current stable releases of Node.js versions.
-```nvm``` puts its files in a *.nvm/* folder of home directory.
-For the sake of convenience, considering that I did not build ```nvm``` from
-source, I copied the ```nvm.sh``` and ```bash_completion``` from
+```nvm``` puts its files in a *.nvm/* folder in the home directory.
+I did not build it from source, which contains a few utility files.
+For the sake of convenience, I copied the ```nvm.sh``` and ```bash_completion``` from
 ```nvm``` [github repo](https://github.com/creationix/nvm) and placed them
 in *.nvm/*. It allows to load commands without a need for sourcing
 and adds tab completion.
 
 I cleaned my desk to have only my laptop and a notebook on it :smile:.
-Clear space clear mind, as the zen masters have been saying all along.
-A major game-changer was getting in a habit of writing down things as I go
-(and not plainly keeping them in mind) and  preparing a to-do list
-at the end of my work for the day, so I can jump start the following morning
+Clear space = clear mind, as the zen masters have been saying all along.
+A major game-changer was getting in a habit of preparing a to-do list
+at the end of my work for the day, so that I can jump start the following morning
 by ticking things off of it (after my meditation and yoga practice, that is),
-instead of trying to figure out what it was that had the biggest priority.
+instead of trying to figure out tasks and their priorities.
 
 You live and you learn-- getting better each day
 :heart_eyes:.
