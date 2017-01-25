@@ -16,7 +16,7 @@ I could save by putting more thought into how I work and keeping things neat.
 I put more attention into memorizing shortcuts (```ctrl+R``` is ma fav).
 I added git aliases to the .zshrc file and cleaned up branches
 from previous PRs. Coincidental github push of my messy local node fork
-:face with cold sweat: directory made me clean up the directory of some half written notes, posts and
+:cold_sweat: directory made me clean up the directory of some half written notes, posts and
 scrapbooking files.
 I added a bash script to copy builds into a special directory that is not under version
 control and rename them accordingly to avoid overwriting. Node build softlinks
