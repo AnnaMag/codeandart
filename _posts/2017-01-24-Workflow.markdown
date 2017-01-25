@@ -53,6 +53,6 @@ learn, solve problems and collaborate with extremely smart and talented people.
 All that in a stunning setting-- yesterday we had another amazing sunset
 in this lovely southern Portuguese town I call home.
 
-![My helpful screenshot](/assets/images/2017-01-24-WorkFlow/sunset.jpg)
+![My helpful screenshot](/codeandart/assets/images/2017-01-24-WorkFlow/sunset.jpg)
 
 Lucky and grateful!
