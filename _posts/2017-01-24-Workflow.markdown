@@ -11,9 +11,11 @@ tags:
 ---
 
 These days I optimized my workflow. I realized the amount of time
-I could save by putting more thought into how I work and keeping things neat.
+I could save by automation and smart tool choice. One can only get
+as far with half-baked wokflow.
 
 I put more attention into memorizing shortcuts (```ctrl+R``` is ma fav).
+
 I added git aliases to the .zshrc file and cleaned up branches
 from previous PRs. Coincidental github push of my messy local node fork
 :cold_sweat: directory made me clean up the directory of some half written notes, posts and
