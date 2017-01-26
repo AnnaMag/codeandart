@@ -38,7 +38,7 @@ and current stable releases of Node.js versions.
 ```nvm``` puts its files in a *.nvm/* folder in the home directory.
 I did not build it from source, which contains a few utility files.
 For the sake of convenience, I copied the ```nvm.sh``` and ```bash_completion``` from
-```nvm``` [github repo](https://github.com/creationix/nvm) and placed them
+[```nvm```](https://github.com/creationix/nvm) and placed them
 in *.nvm/*. It allows to load commands without a need for sourcing
 and adds tab completion.
 The benefit of using ```nvm``` is to be able to install and easily switch
