@@ -50,7 +50,7 @@ A major game-changer was getting in a habit of preparing a to-do list
 at the end of my work for the day, so that I can jump start the following morning
 by ticking things off of it (after my meditation and yoga practice, that is),
 instead of trying to figure out tasks and their priorities. I find that I am
-most productive when I start coding the moment I sit down at my computer.
+most productive when starting to code the moment I sit down at my computer.
 
 You live and you learn-- getting better each day and enjoying the process
 :heart_eyes:.
