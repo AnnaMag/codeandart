@@ -10,7 +10,8 @@ tags:
 - workflow
 ---
 
-These days I optimized my workflow. I realized the amount of time
+These days I have been taking optimizing my workflow very seriously.
+I realized the amount of time
 I could save by automation and smart tool choice. One can only get
 as far with half-baked workflow.
 
@@ -51,15 +52,16 @@ Clear space = clear mind, as the zen masters have been saying all along.
 A major game-changer was getting in a habit of preparing a to-do list
 at the end of my work for the day, so that I can jump start the following morning
 by ticking things off of it (after my meditation and yoga practice, that is),
-instead of trying to figure out tasks and their priorities.
+instead of trying to figure out tasks and their priorities. I find that I am
+most productive when I start coding the moment I sit down at my computer.
 
-You live and you learn-- getting better each day
+You live and you learn-- getting better each day and enjoying the process
 :heart_eyes:.
-I really enjoy my work. Every day I get to do what I love most-
+Every day I get to do what I love most-
 learn, solve problems and collaborate with extremely smart and talented people.
 All that in a stunning setting-- yesterday we had another amazing sunset
-in this lovely southern Portuguese town I call home.
+in this lovely coastal town at the edge of Europe I call home.
 
 ![My helpful screenshot](/codeandart/assets/images/2017-01-24-WorkFlow/sunset.jpg)
 
-Lucky and grateful!
+So grateful!
