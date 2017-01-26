@@ -30,9 +30,10 @@ Obvious thing, it seems, yet it takes a few re-builds and
 
 I was using a homebrew installation of Node.js (aside from my local builds).
 Following my mentor's advice I switched to ```nvm```. I installed ```nvm```
-from homebrew, removed the few npm-globally-installed packages (not the best
+from homebrew, removed the few global packages previously installed via ```npm```
+(not the best
    practice to go ```npm -g``` with node packages) and used it
-   to re-installed ```npm```
+   to re-instal ```npm```
 and current stable releases of Node.js versions.
 ```nvm``` puts its files in a *.nvm/* folder in the home directory.
 I did not build it from source, which contains a few utility files.
