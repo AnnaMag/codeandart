@@ -14,8 +14,8 @@ These days I have been taking optimizing my workflow very seriously.
 One can only get as far with half-baked workflow.
 
 I incorporate more keyboard shortcuts (```ctrl+R``` is ma fav), added git aliases to the .zshrc file and cleaned up branches
-from previous PRs. Incidental github push of my messy local node fork
-:cold_sweat: directory was a strong incentive to clean it up
+from previous PRs. Incidental github push of my messy local copy of the Node.js fork
+:cold_sweat: was a strong incentive to clean it up
 and reorganize some of the half written notes and
 scrapbooking files.
 I added a bash script to copy builds into a special directory that is
