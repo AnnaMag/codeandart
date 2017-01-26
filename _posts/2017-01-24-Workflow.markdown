@@ -13,8 +13,7 @@ tags:
 These days I have been taking optimizing my workflow very seriously.
 One can only get as far with half-baked workflow.
 
-I slowly learn more keyboard shortcuts (```ctrl+R``` is ma fav).
-I added git aliases to the .zshrc file and cleaned up branches
+I incorporate more keyboard shortcuts (```ctrl+R``` is ma fav), added git aliases to the .zshrc file and cleaned up branches
 from previous PRs. Coincidental github push of my messy local node fork
 :cold_sweat: directory was a strong incentive to clean it up
 and reorganize some of the half written notes and
