@@ -75,7 +75,7 @@ let us build the debug version
 and call llnode from the command line on the test script
 
 ```bash
-lldb -- ./node_g --perf-basic-prof test.js
+lldb ./node_g test.js
 
 ```
 
@@ -114,7 +114,7 @@ The script stops when hitting the breakpoint in the
 `bt` command shows a number of frames with empty stack trace.
 <figure>
   <img src="/codeandart/assets/images/bt1.png" alt="this is a placeholder image">
-  <figcaption>Empty JS stack trace.</figcaption>
+  <figcaption>Missing JavaScript frames.</figcaption>
 </figure>
 
 This is the executed JavaScript code and the point where llnode plug-in comes
@@ -127,7 +127,7 @@ to rescue. Re-run of the command using llnode that lists the first 40 frames:
 results in:
 <figure>
   <img src="/codeandart/assets/images/btjs.png" alt="this is a placeholder image">
-  <figcaption>Filled in stack trace.</figcaption>
+  <figcaption>JavaScript and Native stack trace.</figcaption>
 </figure>
 
 The place of interest is the *vm.js* file, where the commands (and thus
@@ -181,7 +181,7 @@ the sandbox and visible from the JavaScript script.
 ```
 console.log(util.inspect(sandbox));
 ```
-reveals the modifications of the sanbox:
+reveals the modifications of the sandbox:
 ```JavaScript
 { globalVar: 'set',
   object: { value: 10, color: 'red' }
@@ -189,7 +189,5 @@ reveals the modifications of the sanbox:
 ```
 
 This obviously just scratches the surface of possible uses of llnode.
-Also, when working on Node.js core we want to use the full capabilities of
-a debugger, move through the code and access V8 specific objects.
-
-Happy inspecting :ok_hand:
+When working on Node.js core we want to use the full capabilities of
+a debugger-- move through the code and access V8 specific objects.
