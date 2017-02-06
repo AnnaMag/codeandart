@@ -21,10 +21,10 @@ V8 5.5 has just landed in Node.js, which is very exciting. There are a number
 of improvements and extensions of the API, which will fix ES6 related issues.
 
 Project mentor [Franziska](https://github.com/fhinkel/) wrote a [post](https://medium.com/@franziiii/debug-v8-in-node-js-core-with-gdb-cc753f1f32#.1rpt67eg1)
-on starting with the lower-level debugging of Node.js core using commands
-specified in the .gbdinit file that ships with V8. Here, we cover the same concept
-using lldb and place it in the context of the variables and global object
-as run inside the *vm*. Initially I thought it would open the way for a broader
+on starting with the low-level debugging of Node.js core using commands
+specified in the .gdbinit file that ships with V8. Here, I cover the same concept
+using lldb and have a glance of what *vm* does behind the scenes. 
+Initially I thought it would open the way for a broader
 discussion on the inner workings of *vm* and places for improvements
 (aka what the Outreachy project is about), but as I started writing it up,
 it became a bit overloaded with details. So here comes the technical aspect
